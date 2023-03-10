@@ -1,0 +1,16 @@
+Answer 4 : Output : TWO
+Answer 5 : 'method' is Duplicated as (int ... a) and (int[] a) are the same thing.
+           void method(int ... a) is the method that takes a variable number of arguments
+           and  void method(int[] a) is the method that takes an array of arguments
+           (i.e. again variable number of arguments)
+Answer 6 : java.lang.StackOverflowError will be thrown at runtime.
+           because overloadedMethod(int) keeps calling itself.
+Answer 7 : Compilation error. Because we cannot assign a parent class reference 
+           object to the child class.
+Answer 8 : Output : Geek. Java Abstract class can implement interfaces
+           without even providing the implementation  of interface methods.
+           Here obj is the Gaurav class object so the method getinfo 
+           is called of the Gaurav class.
+Answer 9 : Instance method 'void show' in 'child' cannot override a static parent class method.
+Answer 10: Non static member "X" cannot be referenced from static context.
+Answer 11: O, C, A will be the sequence of the output.
